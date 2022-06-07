@@ -9,7 +9,7 @@
 1180505612 - Mekan Myradov
 
 
-### Uygulamayı Geliştirenler
+### Notlar
 Uygulamadaki kullanıcı kayıtları, kullanıcıların mekanlara yaptığı yorum ve puanlamalar SQLite veritabanında tutulmaktadır.
 
 
