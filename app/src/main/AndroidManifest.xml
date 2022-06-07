@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mekan_myradov.cityguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CityGuide">
+        <activity
+            android:name=".Favorites"
+            android:exported="false"
+            android:label="Favorites"
+            android:parentActivityName=".Categories"/>
+        <activity
+            android:name=".Item"
+            android:exported="false"
+            android:parentActivityName=".Categories" />
+        <activity
+            android:name=".Category"
+            android:exported="false" />
+        <activity
+            android:name=".ParkingLots"
+            android:exported="false"
+            android:label="Parking Lots"
+            android:parentActivityName=".Categories" />
+        <activity
+            android:name=".PlacesOfWorship"
+            android:exported="false"
+            android:label="Places of Worship"
+            android:parentActivityName=".Categories" />
+        <activity
+            android:name=".Shops"
+            android:exported="false"
+            android:label="Shops"
+            android:parentActivityName=".Categories" />
+        <activity
+            android:name=".Hotels"
+            android:exported="false"
+            android:label="Hotels"
+            android:parentActivityName=".Categories" />
+        <activity
+            android:name=".HistoricalPlaces"
+            android:exported="false"
+            android:label="Historical Places"
+            android:parentActivityName=".Categories" />
+        <activity
+            android:name=".Libraries"
+            android:exported="false"
+            android:label="Libraries"
+            android:parentActivityName=".Categories" />
+        <activity
+            android:name=".Parks"
+            android:exported="false"
+            android:label="Parks"
+            android:parentActivityName=".Categories" />
+        <activity
+            android:name=".Categories"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".LogIn"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
